@@ -166,6 +166,7 @@ SELECT e.empno
        ,e.sal
        ,e.sal * 0.033 tax 
        ,e.sal * 0.967 "REAL SAL"
+       ,e. sal * (1.033) "REAL SAL"
 FROM emp e
 ;
 /*
